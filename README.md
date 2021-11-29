@@ -10,7 +10,8 @@ This recipe is a demonstration of an intensive mathmatical algorithm that I have
 2. A Salesforce Function (Javascript type)
 3. A Javascript function in an LWC control
 
-![Functions_Perf](https://user-images.githubusercontent.com/41508645/143960303-7f36a9d0-22fb-4c20-84bb-1756ec635ce3.png)
+![Picture 1](https://user-images.githubusercontent.com/41508645/143961229-0aabdbe8-aa9b-43d7-94ce-e3e3771d7e0f.png)
+
 
 What is interesting are the following observations:
 
