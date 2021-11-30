@@ -36,10 +36,11 @@ This project should be easy to deploy as long as you have a Functions license. U
 # Notes:
 
 1. This Function example does not use the Salesforce API at all
-2. It is rather unfair to compare to recent web browser javascript implementations, which are blazing fast. Containers are not designed for that.
-3. Origional source code for cpu intensive calculation: https://gist.github.com/sqren/5083d73f184acae0c5b7
-4. Apex is actually faster than Salesforce Functions for less intensive CPU bound workloads
-5. Apex has a limit (base number 8 in this calculation) that it can actually handle
-6. Salesforce Functions in Javascript are much slower than the same Javascript running on the browser
-7. Browser side Javascript is actually insanely fast, esspecially on Apple iOS devices
-8. Local Docker performance was not tested. I didn't see the need given that this can't be used in Production.
+2. 'Start up cost' - you may have to run the functiona few times before it finds its optimal run speed
+3. It is rather unfair to compare to recent web browser javascript implementations, which are blazing fast. Containers are not designed for that.
+4. Origional source code for cpu intensive calculation: https://gist.github.com/sqren/5083d73f184acae0c5b7
+5. Apex is actually faster than Salesforce Functions for less intensive CPU bound workloads
+6. Apex has a limit (base number 8 in this calculation) that it can actually handle
+7. Salesforce Functions in Javascript are much slower than the same Javascript running on the browser
+8. Browser side Javascript is actually insanely fast, esspecially on Apple iOS devices
+9. Local Docker performance was not tested. I didn't see the need given that this can't be used in Production.
