@@ -1,0 +1,68 @@
+<template>
+
+    
+    <lightning-card title="Slow Code Test Utility" icon-name="utility:ribbon">
+
+        <lightning-layout vertical-align="center" multiple-rows="true"  >
+
+                <div class="slds-col slds-size_2-of-12">
+
+                    <lightning-layout-item padding="around-medium">
+
+                        <lightning-input type="number" name="inputIterations" label="Base Number" value={baseNumber} onchange={baseNumberOnChange}></lightning-input>
+                        
+                    </lightning-layout-item>
+
+                </div>
+                <div class="slds-col slds-size_10-of-12">
+                  <span></span>
+                </div>
+
+                <div class="slds-col slds-size_4-of-12">
+                    <lightning-layout-item padding="around-small">
+                        <lightning-button variant="brand" label="Slow code with Apex" title="Primary action" onclick={handleSlowCodeApex} class="slds-var-m-left_x-small"></lightning-button> 
+                    </lightning-layout-item>
+                </div>
+
+                <div class="slds-col slds-size_8-of-12">
+                    {apexOutput}
+                </div>
+  
+                <div class="slds-col slds-size_4-of-12">
+                    <lightning-layout-item padding="around-small">
+                        <lightning-button variant="brand" label="Slow code with Salesforce Functions" title="Primary action" onclick={handleSlowCodeFunctions} class="slds-var-m-left_x-small"></lightning-button> 
+                    </lightning-layout-item>
+                </div>
+
+                <div class="slds-col slds-size_8-of-12">
+                    {functionsOutput}
+                </div>
+
+                <div class="slds-col slds-size_4-of-12">
+                    <lightning-layout-item padding="around-small">
+                        <lightning-button variant="brand" label="Slow code with Browser Javascript" title="Primary action" onclick={handleSlowCodeBrowser} class="slds-var-m-left_x-small"></lightning-button>
+                    </lightning-layout-item>
+                </div>
+
+                <div class="slds-col slds-size_8-of-12">
+                    {browserOutput}
+                </div>
+
+                <div class="slds-col slds-size_4-of-12">
+                    <lightning-layout-item padding="around-small">
+                        <lightning-button variant="brand" label="Clear" title="Primary action" onclick={handleClear} class="slds-var-m-left_x-small"></lightning-button>
+                    </lightning-layout-item>
+                </div>
+
+                <div class="slds-col slds-size_8-of-12">
+                    <span></span>
+                </div>
+
+            <lightning-layout-item padding="around-small">
+                Error Message: {errorMsg}
+            </lightning-layout-item>
+            
+        </lightning-layout>        
+    </lightning-card> 
+
+</template>
