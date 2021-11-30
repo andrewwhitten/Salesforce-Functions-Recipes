@@ -2,7 +2,9 @@
 
 # Slow Code Test
 
-Salesforce Functions is not squarley targeted at performance scenarios, however I thought it would be interesting to see how far I could push it compared to Apex and browser Javascript.
+Salesforce Functions use scalable containers, and are not targeted at performance scenarios even though they are good candidates to reduce specific high cpu tasks currently running in Apex.
+
+I thought it would be interesting to see how far I could push them compared to Apex and browser Javascript.
 
 This recipe is a demonstration of an intensive mathmatical algorithm that I have implemented as:
 
@@ -25,9 +27,10 @@ These statistics have informed the following observations:
 
 Notes:
 
-1. This Function does not use the Salesforce API at all
-2. Origional source code for cpu intensive calculation: https://gist.github.com/sqren/5083d73f184acae0c5b7
-3. Apex is actually faster than Salesforce Functions for less intensive CPU bound workloads
-4. Apex has a limit (base number 8 in this calculation) that it can actually handle
-5. Salesforce Functions in Javascript are much slower than the same Javascript running on the browser
-6. Browser side Javascript is actually insanely fast, esspecially on Apple iOS devices
+1. This Function example does not use the Salesforce API at all
+2. It is rather unfair to compare to recent web browser javascript implementations, which are blazing fast. Containers are not designed for that.
+3. Origional source code for cpu intensive calculation: https://gist.github.com/sqren/5083d73f184acae0c5b7
+4. Apex is actually faster than Salesforce Functions for less intensive CPU bound workloads
+5. Apex has a limit (base number 8 in this calculation) that it can actually handle
+6. Salesforce Functions in Javascript are much slower than the same Javascript running on the browser
+7. Browser side Javascript is actually insanely fast, esspecially on Apple iOS devices
