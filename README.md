@@ -19,3 +19,9 @@ What is interesting are the following observations:
 2. Apex has a limit (base number 8) that is can actually handle
 3. Salesforce Functions in Javascript are much slower than the same Javascript running on the browser
 4. Browser side Javascript is actually insanely fast, esspecially on Apple iOS devices
+
+
+Notes:
+
+1. Origional source code for cpu intensive calculation: https://gist.github.com/sqren/5083d73f184acae0c5b7
+2. 
