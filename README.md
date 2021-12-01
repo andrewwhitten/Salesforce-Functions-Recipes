@@ -25,7 +25,7 @@ When run in a Developer Sandbox:
 
 Yields these results:
 
-![Picture 1](https://user-images.githubusercontent.com/41508645/143961229-0aabdbe8-aa9b-43d7-94ce-e3e3771d7e0f.png)
+![Picture 1](https://user-images.githubusercontent.com/41508645/144147454-774f96cb-7f3b-474c-9267-c26ae5573645.png)
 
 
 These statistics have informed the following observations:
