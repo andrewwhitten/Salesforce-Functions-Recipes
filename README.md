@@ -1,5 +1,7 @@
 # Salesforce-Functions-Recipes
 
+Salesforce Functions is deprecated and will soon not be available at all. I will leave this project up as an interesting experiment, and perhaps the basis of similar performance tests in future.
+
 # Slow Code Test
 
 <a href="https://developer.salesforce.com/docs/platform/functions/guide/overview.html">Salesforce Functions employ elastic computing for compute heavy tasks</a>, and are good a candidate to reduce high cpu tasks currently running in Apex.
