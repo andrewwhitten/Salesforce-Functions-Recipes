@@ -1,6 +1,6 @@
 # Salesforce-Functions-Recipes
 
-Salesforce Functions is deprecated and will soon not be available at all. I will leave this project up as an interesting experiment, and perhaps the basis of similar performance tests in future.
+Salesforce Functions is deprecated and will soon not be available at all (APRIL 2024). I will leave this project up as an interesting experiment, and perhaps the basis of similar performance tests in future.
 
 # Slow Code Test
 
