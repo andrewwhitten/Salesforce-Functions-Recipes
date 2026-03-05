@@ -1,6 +1,6 @@
 # Salesforce-Functions-Recipes
 
-OBSOLETE: Salesforce Functions is deprecated and will soon not be available at all (APRIL 2024), as well as the end-of-sales for Heroku itself (Feb 2026). I will leave this project up as an interesting experiment, and perhaps the basis of similar performance tests in future.
+OBSOLETE: Salesforce Functions is deprecated and not available at all (APRIL 2024), in addition to the end-of-sales for Heroku itself (Feb 2026). I will leave this project up as an interesting experiment, and perhaps the basis of similar performance tests in future.
 
 # Slow Code Test
 
